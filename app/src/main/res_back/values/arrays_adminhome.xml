@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="user_types_adminhome">
+        <item>Student</item>
+        <item>Expert</item>
+        <item>Content</item>
+    </string-array>
+</resources>
