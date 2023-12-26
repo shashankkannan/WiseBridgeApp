@@ -1,4 +1,9 @@
-# WiseBridge
+**# WiseBridge**
+
+**Locations**
+**Java files**: \app\src\main\java\com\example\wisebridge 
+**XML files**:  \app\src\main\res\layout
+
 WiseBridge is an innovative Android application that seamlessly combines Java, XML, and Firebase technologies to bridge the educational gap between students and experts. The primary goal is to facilitate the sharing of high-quality educational content, fostering a mutually beneficial environment where students can access valuable materials while experts are incentivized to contribute.
 
 The application features distinct login/authentication portals for administrators, experts, and students, each employing encryption for secure authorization. Administrators play a crucial role in verifying content and user authenticity, overseeing expert uploads, and managing timely content availability. Experts, on the other hand, contribute educational material and authorize payments from students. This unique model allows students to focus on their studies by monetizing the content, minimizing the need for unrelated part-time jobs.
