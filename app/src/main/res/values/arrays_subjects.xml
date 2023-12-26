@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="user_types_subjects">
+        <item>Acc</item>
+        <item>Ase</item>
+        <item>Elective</item>
+    </string-array>
+</resources>

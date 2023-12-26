@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="user_types_reg">
+        <item>Expert</item>
+        <item>Student</item>
+    </string-array>
+</resources>

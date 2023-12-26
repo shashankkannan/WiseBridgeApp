@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="user_types_verpay">
+        <item>Subscribers</item>
+        <item>Verify payment</item>
+    </string-array>
+</resources>

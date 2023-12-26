@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="user_types_adminhome">
+        <item>Verify Student</item>
+        <item>Verify Expert</item>
+        <item>Verify Content</item>
+        <item>All Users</item>
+        <item>All Experts</item>
+        <item>All Content</item>
+
+    </string-array>
+</resources>
