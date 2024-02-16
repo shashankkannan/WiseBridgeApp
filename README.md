@@ -1,5 +1,6 @@
 
 **About**
+
 Locations Java files in GITHUB: \app\src\main\java\com\example\wisebridge XML files: \app\src\main\res\layout
 
 **Overview**
@@ -17,6 +18,7 @@ Content data encompasses key elements like title, small description, price, subs
 In summary, WiseBridge revolutionizes the educational experience by creating a platform that benefits both students and experts. Its robust architecture, secure authentication, and efficient database management make it a valuable asset for those seeking quality educational content and for experts looking to share their knowledge.
 
 **Features**
+
 **Application Flow:**
 1. Expert Registration and Content Creation ( Login and Registration page)
 
@@ -47,7 +49,6 @@ Users who have accessed a particular piece of content can navigate to the Review
 **Getting Started**
 
 **1. Clone the repository:**
-
 
 <pre>
   <code id="gitCloneCommand" class="bash">
