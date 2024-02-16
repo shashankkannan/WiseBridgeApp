@@ -16,8 +16,7 @@ Content data encompasses key elements like title, small description, price, subs
 
 In summary, WiseBridge revolutionizes the educational experience by creating a platform that benefits both students and experts. Its robust architecture, secure authentication, and efficient database management make it a valuable asset for those seeking quality educational content and for experts looking to share their knowledge.
 
-**Features
-**
+**Features**
 **Application Flow:**
 1. Expert Registration and Content Creation ( Login and Registration page)
 
