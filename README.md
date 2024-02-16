@@ -50,3 +50,25 @@ Getting Started
 Clone the repository:
 Use \`git clone https://github.com/your-username/WiseBridge-Android.git\` to clone the repository.
 
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+<button class="btn" data-clipboard-target="#gitCloneCommand">Copy</button>
+
+<pre>
+<code id="gitCloneCommand" class="bash">
+git clone https://github.com/your-username/WiseBridge-Android.git
+</code>
+</pre>
+
+<script>
+new ClipboardJS('.btn');
+</script>
+
+
