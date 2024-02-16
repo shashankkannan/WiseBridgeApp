@@ -1,7 +1,9 @@
 
 **About**
 
-Locations Java files in GITHUB: \app\src\main\java\com\example\wisebridge XML files: \app\src\main\res\layout
+**Locations** 
+  - Java files in GITHUB: \app\src\main\java\com\example\wisebridge
+  - XML files: \app\src\main\res\layout
 
 **Overview**
 
