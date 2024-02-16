@@ -44,3 +44,9 @@ Users submit the verification code to the respective expert for access to paid c
 6. Review content
 
 Users who have accessed a particular piece of content can navigate to the Review Page to share their opinions. This creates a sense of community engagement and provides valuable insights for both content creators and potential consumers. Each review is displayed prominently on the Review Page, showcasing the user’s comments, and rating. The average rating for each content item is calculated based on the reviews received from users. is prominently displayed on the Content Details Page, allowing users to quickly gauge the overall satisfaction level of their peers.
+
+
+Getting Started
+Clone the repository:
+Use \`git clone https://github.com/your-username/WiseBridge-Android.git\` to clone the repository.
+
