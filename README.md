@@ -1,9 +1,8 @@
 
-
-About
+**About**
 Locations Java files in GITHUB: \app\src\main\java\com\example\wisebridge XML files: \app\src\main\res\layout
 
-Overview
+**Overview**
 
 WiseBridge is an innovative Android application that seamlessly combines Java, XML, and Firebase technologies to bridge the educational gap between students and experts. The primary goal is to facilitate the sharing of high-quality educational content, fostering a mutually beneficial environment where students can access valuable materials while experts are incentivized to contribute.
 
@@ -17,9 +16,9 @@ Content data encompasses key elements like title, small description, price, subs
 
 In summary, WiseBridge revolutionizes the educational experience by creating a platform that benefits both students and experts. Its robust architecture, secure authentication, and efficient database management make it a valuable asset for those seeking quality educational content and for experts looking to share their knowledge.
 
-Features
-
-Application Flow:
+**Features
+**
+**Application Flow:**
 1. Expert Registration and Content Creation ( Login and Registration page)
 
 Experts register using a dedicated registration page providing details like name, email, password, account information, and verifying their identity.After registration, experts log in using their credentials. Logged-in experts can create and upload content. They provide details such as title, description, price, and attach the content file. The verification status of the expert is displayed.
@@ -46,9 +45,9 @@ Users submit the verification code to the respective expert for access to paid c
 Users who have accessed a particular piece of content can navigate to the Review Page to share their opinions. This creates a sense of community engagement and provides valuable insights for both content creators and potential consumers. Each review is displayed prominently on the Review Page, showcasing the user’s comments, and rating. The average rating for each content item is calculated based on the reviews received from users. is prominently displayed on the Content Details Page, allowing users to quickly gauge the overall satisfaction level of their peers.
 
 
-Getting Started
+**Getting Started**
 
-1. Clone the repository:
+**1. Clone the repository:**
 
 
 <pre>
@@ -57,13 +56,13 @@ git clone https://github.com/your-username/WiseBridge-Android.git
   </code>
 </pre>
 
-2. Open the Project in Android Studio:
+**2. Open the Project in Android Studio:**
 
   - Launch Android Studio.
   - Choose "Open an existing Android Studio project."
   - Navigate to the cloned repository and select the root directory.
 
-3. Set Up Firebase:
+**3. Set Up Firebase:**
 
   - Go to the Firebase Console.
   - Create a new project or select an existing one.
@@ -139,3 +138,10 @@ Below is a simplified schema of the realtime database
 </pre>
 
     
+**4. Connect the App to Firebase:**
+  - Open the app module in Android Studio.
+  - Navigate to the google-services.json file and replace it with the one generated from your Firebase project.
+
+**5. Run the App:**
+  - Connect an Android device or start an emulator.
+  - Click on the "Run" button in Android Studio to install and run the application.
