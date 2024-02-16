@@ -48,7 +48,7 @@ Users who have accessed a particular piece of content can navigate to the Review
 
 Getting Started
 
-Clone the repository:
+1. Clone the repository:
 
 
 <pre>
@@ -57,5 +57,85 @@ git clone https://github.com/your-username/WiseBridge-Android.git
   </code>
 </pre>
 
+2. Open the Project in Android Studio:
 
+  - Launch Android Studio.
+  - Choose "Open an existing Android Studio project."
+  - Navigate to the cloned repository and select the root directory.
 
+3. Set Up Firebase:
+
+  - Go to the Firebase Console.
+  - Create a new project or select an existing one.
+  - Navigate to "Realtime Database" and create a new database.
+  - Adjust your Firebase Rules to allow read/write access. For simplicity in development, you can set them to true.
+
+  <pre>
+    <code id="gitCloneCommand" class="bash">  
+    {
+        "rules": 
+      {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+  }
+    </code>
+</pre>
+
+Below is a simplified schema of the realtime database
+<pre>
+    <code id="gitCloneCommand" class="bash">
+{
+  "Admin": {
+    "admin": {
+      "password": "<string>"
+    }
+  },
+  "Content": {
+    "<content_id>": {
+      "description": "<string>",
+      "keys": "<string>",
+      "owner": "<user_id>",
+      "price": "<number>",
+      "reviews": {
+        "<user_id>": {
+          "rate": "<number>",
+          "rev": "<string>"
+        }
+      },
+      "subject": "<string>",
+      "subscribers": {
+        "<user_id>": {
+          "<user_id>": "<string>",
+          "payverify": "<string>",
+          "verification_id": "<string>"
+        }
+      },
+      "title": "<string>",
+      "url": "<string>",
+      "verify": "<string>"
+    }
+  },
+  "ExpRegister": {
+    "<user_id>": {
+      "account": "<string>",
+      "email": "<string>",
+      "ifsc": "<string>",
+      "name": "<string>",
+      "password": "<string>",
+      "verify": "<string>"
+    }
+  },
+  "Register": {
+    "<user_id>": {
+      "email": "<string>",
+      "name": "<string>",
+      "password": "<string>",
+      "verify": "<string>"
+    }
+  }
+}
+         </code>
+</pre>
+
+    
