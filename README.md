@@ -47,17 +47,14 @@ Users who have accessed a particular piece of content can navigate to the Review
 
 
 Getting Started
+
 Clone the repository:
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 
-<button class="btn" data-clipboard-target="#gitCloneCommand">Copy</button>
 
 <pre>
-<code id="gitCloneCommand" class="bash">
 git clone https://github.com/your-username/WiseBridge-Android.git
-</code>
 </pre>
 
 
