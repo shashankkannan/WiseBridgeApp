@@ -51,9 +51,10 @@ Getting Started
 Clone the repository:
 
 
-<button class="btn" data-clipboard-target="#gitCloneCommand">Copy</button>
 <pre>
+  <code id="gitCloneCommand" class="bash">
 git clone https://github.com/your-username/WiseBridge-Android.git
+  </code>
 </pre>
 
 
