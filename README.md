@@ -73,8 +73,8 @@ git clone https://github.com/your-username/WiseBridge-Android.git
     {
         "rules": 
       {
-        ".read": "auth != null",
-        ".write": "auth != null"
+        ".read": true,
+        ".write": true
       }
   }
     </code>
